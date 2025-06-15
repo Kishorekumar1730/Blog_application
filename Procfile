@@ -1,1 +1,1 @@
-web: gunicorn Blog_application.wsgi --chdir $PWD
+web: gunicorn myproject.wsgi --chdir $PWD
